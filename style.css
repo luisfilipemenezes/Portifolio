@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("https://i.imgur.com/ELsXaV4.jpeg");
+    width: 100vw;
+    background-size: cover;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    font-family: 'Source Serif Pro', serif;
+    color:white;
+    height: 200px;
+
+    
+}
+
+.logo, .cabecalho{
+    height: 150px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+
+.nome{
+    text-decoration: none;
+    font-size: 33px;
+    text-align: center;
+}
+
+.ocupacao{
+    font-size: 25px;
+}
+
+ul , li{
+    list-style: none;
+
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+a{
+    color:white;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover{
+    border-radius: 10px;
+    background-color: rgb(179, 179, 179);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 200px);
+   
+}
+
+.text{
+    width: 1500px;
+    align-items: center;
+    
+    height: calc(100vh - 500px);
+}
+
+
+.container2{
+    display: flex;
+    width: 1500px;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+    color:white;
+    height: 200px;
+
+    
+}
+
+.titulo{
+    padding-top: 200px;
+    font-size: 70px;
+    text-align: start;
+    width: 1500px;
+}
+
+.descricao{
+    padding-top: 30px;
+    padding-left: 270px;
+    padding-right: 470px;
+    font-size: 20px;
+    flex: 3;
+}
+
