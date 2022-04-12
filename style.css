@@ -3,7 +3,10 @@
 }
 
 body{
+    overflow-x: hidden;
     background-image: url("https://i.imgur.com/ELsXaV4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100vw;
     background-size: cover;
 
@@ -20,22 +23,16 @@ header{
     width: 1500px;
     font-family: 'Source Serif Pro', serif;
     color:white;
-    height: 200px;
-
-    
+    height: 200px;    
 }
 
 .logo, .cabecalho{
     height: 150px;
     text-decoration: none;
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
     
 }
-
-
-
 .nome{
     text-decoration: none;
     font-size: 33px;
@@ -71,14 +68,12 @@ a:hover{
 section{
     display: flex;
     justify-content: center;
-    height: calc(100vh - 200px);
-   
+    height: calc(100vh - 650px);
 }
 
 .text{
     width: 1500px;
-    align-items: center;
-    
+    align-items: center;    
     height: calc(100vh - 500px);
 }
 
@@ -89,13 +84,12 @@ section{
     flex-direction: column;
     font-family: 'Source Serif Pro', serif;
     color:white;
-    height: 200px;
-
-    
+   
+    height: 200px;   
 }
 
 .titulo{
-    padding-top: 200px;
+    
     font-size: 70px;
     text-align: start;
     width: 1500px;
@@ -108,4 +102,53 @@ section{
     font-size: 20px;
     flex: 3;
 }
+
+aside{
+    margin: 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    display: flex;
+    width: 1500px;
+    color:white;   
+}
+
+
+.img1{
+    flex:4;
+    background-image: url("https://i.imgur.com/96zH7aV.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    flex:4;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/dMAcV48.png");
+}
+
+.img3{
+    flex: 1;
+}
+
+footer{
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
