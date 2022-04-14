@@ -4,12 +4,15 @@
 
 body{
     overflow-x: hidden;
+    text-shadow: 5px 1px 1px rgb(0, 0, 0);
+
+}
+
+.fundo1{
     background-image: url("https://i.imgur.com/ELsXaV4.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    width: 100vw;
     background-size: cover;
-
 }
 
 header{
@@ -20,11 +23,13 @@ header{
 .container{
     display: flex;
     justify-content: space-between;
-    width: 1500px;
+    width: 1300px;
     font-family: 'Source Serif Pro', serif;
     color:white;
-    height: 200px;    
+    height: 150px;    
 }
+
+
 
 .logo, .cabecalho{
     height: 150px;
@@ -65,79 +70,95 @@ a:hover{
     background-color: rgb(179, 179, 179);
 }
 
-section{
+.principal{
     display: flex;
     justify-content: center;
-    height: calc(100vh - 650px);
+    height: calc(100vh - 150px); 
 }
 
 .text{
-    width: 1500px;
     align-items: center;    
     height: calc(100vh - 500px);
-}
-
-
-.container2{
-    display: flex;
-    width: 1500px;
-    flex-direction: column;
-    font-family: 'Source Serif Pro', serif;
-    color:white;
-   
-    height: 200px;   
-}
-
-.titulo{
+    padding-top: 70;
     
-    font-size: 70px;
-    text-align: start;
-    width: 1500px;
 }
 
-.descricao{
-    padding-top: 30px;
-    padding-left: 270px;
-    padding-right: 470px;
-    font-size: 20px;
-    flex: 3;
+.container4{
+    width: 1300px;
+    height: calc(100vh - 200px);
+    display: flex;
 }
 
-aside{
-    margin: 0;
-    height: 400px;
+.parte1{
+    flex: 1;
+
+}
+
+.parte2{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex: 1;
 }
 
-.container3{
-    display: flex;
-    width: 1500px;
-    color:white;   
+.img1 , .img2{
+    flex: 1;
 }
-
 
 .img1{
-    flex:4;
-    background-image: url("https://i.imgur.com/96zH7aV.png");
-    background-size: cover;
-    background-position: center;
-}
 
-.img2{
-    flex:4;
     background-size: cover;
     background-position: center;
     background-image: url("https://i.imgur.com/dMAcV48.png");
 }
 
-.img3{
-    flex: 1;
+.img2{
+    background-image: url("https://i.imgur.com/96zH7aV.png");
+    background-size: cover;
+    background-position: center;
 }
 
-footer{
-    height: 200px;
+.container2{   
+    font-family: 'Source Serif Pro', serif;
+    color:white;
+    height: 350px;   
 }
+
+.titulo{ 
+    font-size: 70px;;
+}
+
+.descricao{
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-right: 450px;
+    font-size: 20px;
+}
+
+.segundaPag{
+    height: 100vh;
+    background-image: url("https://i.imgur.com/96zH7aV.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.terceiraPag{
+    height: 100vh;
+    background-image: url("https://i.imgur.com/dMAcV48.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
