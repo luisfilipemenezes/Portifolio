@@ -167,11 +167,11 @@ a:hover{
     }
 }
 
-@mediascreen(max-width: 704px){
+@media(max-width: 704px){
     .container{
-        width: 500px;
+        width: calc(100vw - 50px);
     }
-    .ome , .ocupacao , a{
+    .nome , .ocupacao , a{
         height: 50px;
         font-size: 15px;
     }
@@ -185,7 +185,7 @@ a:hover{
     }
 
     .container4{
-        width: 400px;
+        width: calc(100vw - 50px)
     }
     .titulo{
         padding-top: 150;
