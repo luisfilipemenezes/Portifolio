@@ -167,11 +167,31 @@ a:hover{
     }
 }
 
-@media(max-width: 704px){
-    .container{
-        width: calc(100vw - 50px);
+@media(max-width:450px){
+
+    nav ul{
+        align-items: center;
+        flex-direction: column;
     }
-    .nome , .ocupacao , a{
+
+    body{
+        width: 414px;
+    }
+
+    .logo{
+        align-items: center;
+    }
+
+    header{
+        width: 414px;
+        height: auto;
+    }
+    .container{
+        width: 300px;
+    }
+
+    .ome , .ocupacao , a{
+
         height: 50px;
         font-size: 15px;
     }
@@ -179,13 +199,8 @@ a:hover{
         font-size: 20px;
     }
 
-    .cabecalho{
-        width: 50px;
-        height: 50px;
-    }
-
     .container4{
-        width: calc(100vw - 50px)
+        width: 400px;
     }
     .titulo{
         padding-top: 150;
@@ -207,6 +222,15 @@ a:hover{
         height: 250px;
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
