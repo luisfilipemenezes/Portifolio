@@ -4,7 +4,7 @@
 
 body{
     overflow-x: hidden;
-    text-shadow: 5px 1px 1px rgb(0, 0, 0);
+
 
 }
 
@@ -129,7 +129,7 @@ a:hover{
 }
 
 .descricao{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 300px;
     padding-right: 450px;
     font-size: 20px;
@@ -137,19 +137,76 @@ a:hover{
 
 .segundaPag{
     height: 100vh;
-    background-image: url("https://i.imgur.com/96zH7aV.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
 
 .terceiraPag{
     height: 100vh;
-    background-image: url("https://i.imgur.com/dMAcV48.png");
+}
+
+.img1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.imgur.com/96zH7aV.png");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
+.img2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.imgur.com/dMAcV48.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media(min-width:1500px){
+    .container{
+        width: 1500px;
+    }
+}
+
+@media(max-width:450px){
+    .container{
+        width: 1000px;
+    }
+    .ome , .ocupacao , a{
+        height: 50px;
+        font-size: 15px;
+    }
+    .nome{
+        font-size: 20px;
+    }
+
+    .cabecalho{
+        width: 50px;
+        height: 50px;
+    }
+
+    .container4{
+        width: 400px;
+    }
+    .titulo{
+        padding-top: 150;
+        font-size: 30px;
+    }
+    .descricao{
+        padding: 0;
+        padding-top: 250px;
+        font-size: 20px;
+    }
+
+    .segundaPag , .terceiraPag{
+        height: 300px;
+    }
+
+    .img1,.img2{
+        align-items: center;
+        width: 400px;
+        height: 250px;
+    }
+}
 
 
 
