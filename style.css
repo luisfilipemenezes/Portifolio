@@ -167,9 +167,9 @@ a:hover{
     }
 }
 
-@media(max-width: 574px){
+@media(max-width: 704px){
     .container{
-        width: 300px;
+        width: 500px;
     }
     .ome , .ocupacao , a{
         height: 50px;
